@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+/*Styling for the header and navigation */
+header{
+    display: flex;
+    flex-direction: column;
+   margin: 5px; 
+   width: 100%;
+   height: 80px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.logo i{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.main-menu ul{
+    display: flex;
+}
+
+.main-menu ul li {
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.register button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+
+}
+.register p{
+    padding: 10px;
+}
+
+.register p a{
+    text-decoration: none;
+    color: #2c1717;
+    font-size: 18px;
+}
+
+.register p a:hover{
+    background-color: black;
+    color: #ffffff;
+    
+}
+
+.menu-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-top: 1px solid #d2d6d3;
+    border-bottom: 1px solid #d2d6d3;
+   
+}
+.menu-links ul{
+    display: flex;
+    
+}
+
+.menu-links ul li{
+    padding: 5px;
+    list-style: none;
+}
+
+.menu-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.menu-links ul li a:hover{
+    background-color: #d2d6d3;
+    height: 30px;
+}
+
+/* Styling for content */
+.latest{
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.top-left{
+    width: 300px;
+    margin: 10px;
+}
+
+
+
+
+.post{
+    
+    border-bottom: 1px solid grey;
+}
+
+.post h2 {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.post a{
+    text-decoration: none;
+    padding: 0;
+    color: black;
+}
+.post a:hover{
+    text-decoration: underline;
+}
+.post p{
+    padding: 10px;
+}
+
+
+/* styling for top center content */
+.top-center{
+    width: 600px;
+    margin: 10px;
+}
+
+/*styling for the indiviual posts in the center */
+.post-card{
+    width: 500px;
+}
+.post-card h2 {
+    font-size: 20px;
+}
+
+.post-card h2 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.post-card h2 a:hover{
+    text-decoration: underline;
+}
+
+.post-card p{
+    padding-top: 10px;
+}
+
+.bullet-list{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.bullet-list a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.bullet-list a:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* styling for the top right posts */
+.top-right{
+    margin: 10px;
+    width: 500px;
+}
+
+/* styles for the individual post at the top right */
+
+.post-right{
+    
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+}
+
+.post-right h2 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.post-right a{
+    text-decoration: none;
+    padding: 0;
+    color: black;
+}
+.post-right a:hover{
+    text-decoration: underline;
+}
+.post-right p{
+    padding: 10px;
+}
+
+.second-layout{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+}
+
+.post-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.post-layout1{
+    width: 600px;
+    margin: 5px;
+}
+
+.post-layout2{
+    width: 600px;
+    
+}
+
+.third-layout{
+    display: flex;
+    flex-direction: row;
+    background-color: #dee3e0;
+    padding: 80px;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    border-top: 1px solid rgb(5, 4, 4);
+}
+
+.third-layout div{
+    width: 200px;
+    
+}
+
+.third-layout div h2{
+    font-size: 16px;
+}
+
+/* style for the area with dark background */
+/* .fourth-layout{
+    padding: 15px;
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.video-content{
+    height: 800px;
+    margin: 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-content div h2  {
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.video-content div p  {
+    color: white;
+}
+
+
+
+.text-area{
+    width: 40%;
+    text-align: center;
+} */
+
+.fifth-layout{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    background-color: #000000;
+    padding: 80px;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    border-top: 1px solid rgb(5, 4, 4);
+}
+
+.fifth-layout div{
+    width: 200px;
+    
+}
+
+.fifth-layout div h2{
+    font-size: 16px;
+}
+
+.fifth-layout a{
+    color: white;
+}
+
+footer{
+    width: 100%;
+    border-top: 2px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bbc-footer{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.menu-links-footer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 30px;
+    margin: 40px 20px;
+   
+}
+.menu-links-footer ul{
+    display: flex;
+    
+}
+
+.menu-links-footer ul li{
+    padding: 5px;
+    list-style: none;
+}
+
+.menu-links-footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.menu-links-footer ul li a:hover{
+    background-color: #d2d6d3;
+    height: 30px;
+}
+
+.copyright-txt{
+    margin:  10px 10px;
+
+}
